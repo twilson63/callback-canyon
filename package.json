@@ -1,0 +1,14 @@
+{
+  "name": "callback-canyon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "tap-browser-color": "^0.1.2",
+    "tape": "^4.9.1"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
