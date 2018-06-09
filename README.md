@@ -8,9 +8,9 @@
 ##
 ```
 
-Callback Canyon is a great way a beginning to intermediate javascript developer can get some practice writing functional callback routines and the tests that validate the result.
+Callback Canyon is a great way for a beginning to intermediate javascript developer to get some practice writing functional callback routines and the tests that validate the result.
 
-The purpose of this challenge is not to write your own functional library, but to get used to solving small, tiny problems and work though some of the syntax of the javascript language.
+The purpose of this challenge is not to write your own functional library, but to get some repetitions solving small, tiny problems and working though some of the syntax of the javascript language.
 
 ## How does it work?
 
@@ -71,10 +71,10 @@ assert.ok(equals('hello', 'hello'))
  *
  * takes two values and returns true if the values are the same
  *
- * @param a {any}
- * @param b {any}
+ * @param a any
+ * @param b any
  *
- * @returns {boolean}
+ * @returns boolean
  */
 function equals(a, b) {
   return a === b
@@ -95,6 +95,9 @@ export default equals
 Solve each problem and then move to the next numbered file.
 
 ## Callbacks
+
+> you can find the definitions for these functions on the ramdajs documentation site
+> https://ramdajs.com/docs/
 
 * [ ] equals
 * [ ] add
@@ -153,9 +156,9 @@ Solve each problem and then move to the next numbered file.
 
 --
 
-> The goal of this exercise is not to do all of these in one sitting, but to practice a few every day, to get used to the following concepts:
+> The goal of this exercise is not to do all of these in one pass, but to practice a few every day, to get used to the following concepts:
 
-* Thinking small solutions
+* Thinking in small solutions
 * Testing your code
 * Documenting your code
 * Getting used to JavaScript syntax
@@ -166,8 +169,12 @@ Solve each problem and then move to the next numbered file.
 * tweet it out!
 * share on linked in!
 
-> Let people know you are climbing a mountain! Shout for joy when you reach the end of the canyon!!!
+> Let people know you are making your way through the canyon! Shout for joy when you reach the end of the canyon!!!
 
 ## The ones who completed this challenge
 
 * [Your name here!]
+
+## Thank you
+
+Thank you for using this project, it was made with <3 by the instructors at JRS Coding School. We want to see every developer succeed and maybe this tool can help you in that part of the journey.
