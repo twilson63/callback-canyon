@@ -31,7 +31,7 @@ Lets take the first callback `equals`.
 Steps
 
 * create an `equals.js` file in the `src` directory.
-* create a `test/equals.js` file in the `test` directory.
+* create a `test/equals_test.js` file in the `test` directory.
 * add the test boilier plate to the `test/equals.js` file.
 
 ```js
