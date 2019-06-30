@@ -100,9 +100,21 @@ Solve each problem and then move to the next numbered file.
 > https://ramdajs.com/docs/
 
 * [ ] equals
+
+> Create a predicate function that compares two arguments and returns true of false based on value equality
+
 * [ ] add
+
+> Create a binary function that adds two numbers and returns the result as a number
+
 * [ ] subtract
+
+> Create a binary function that subtracts two numbers and returns the result as a number
+
 * [ ] multiply
+
+> Create a binary function that multiplies two numbers and return the result as a number
+
 * [ ] divide
 * [ ] prop
 * [ ] path
