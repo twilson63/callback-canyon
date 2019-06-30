@@ -109,13 +109,16 @@ Solve each problem and then move to the next numbered file.
 
 * [ ] subtract
 
-> Create a binary function that subtracts two numbers and returns the result as a number
+> Create a binary function that subtracts two number arguments and returns the result as a number
 
 * [ ] multiply
 
-> Create a binary function that multiplies two numbers and return the result as a number
+> Create a binary function that multiplies two number arguments and return the result as a number
 
 * [ ] divide
+
+> Create a binary function that divides two number arguments and returns the result as a number
+
 * [ ] prop
 * [ ] path
 * [ ] inc
