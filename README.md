@@ -96,21 +96,75 @@ Solve each problem and then move to the next numbered file.
 
 ## Callbacks
 
-> you can find the definitions for these functions on the ramdajs documentation site
-> https://ramdajs.com/docs/
+> Bonus: make each function support currying as well as calling the functions with all of their arguments.
+> example: `equals(1,1) === equals(1)(1)`
+> there is a curryN function in your `src` directory
 
 * [ ] equals
+
+ 
+> Create a predicate function that compares two arguments and returns true of false based on value equality
+
+> Why? Having a composable function that can return if two objects are equal can provide value as you combine multiple functions together and need to provide conditionals that may fork the dataflow.
+
 * [ ] add
+
+> Create a binary function that adds two numbers and returns the result as a number
+> Why? Having a way to add two numbers, gives you the ability to compose computation.  
+
 * [ ] subtract
+
+> `(Number a, Number b) => a - b`
+> Create a binary function that subtracts two number arguments and returns the result as a number
+> Why? Having a way to subtract two numbers, gives you the ability to compose computation.
+
 * [ ] multiply
+
+> `(Number a, Number b) => a * b`
+> Create a binary function that multiplies two number arguments and return the result as a number
+> Why? Having a way to multiply two numbers, gives you the ability to compose computation.
+
 * [ ] divide
+
+> `(Number a, Number b) => a / b`
+> Create a binary function that divides two number arguments and returns the result as a number
+> Why? Having a way to divide two numbers, gives you the ability to compose computation.
+
 * [ ] prop
+
+> `(string, object) => object[string]`
+> Create a binary function that takes a string as the first parameter and an object as the second parameter, then return the value of the property that has a name of the first argument from the second argument object, return null if there is no property of that name on the object.
+> Why? Often times in a compose chain, you want to extract just the value of a property on a object data structure.
+
 * [ ] path
+
+> `(array, object) => object[...array]`
+> Take an array and object as parameters, then use the array to drill down the properties of the
+object to get a value, if no value is provided return null.
+> Why? When accessing deep values of objects, if a property does not exist an exception will be thrown, by using an array to specify the chained values, you can get the value or a null, and no exception will be thrown if the property did not exist.
+ 
 * [ ] inc
+
+> `(Number) => Number + 1`
+> This function takes a number and increments the number by 1, use the add function to create this function. 
+
 * [ ] dec
+
+> `(Number) => Number - 1`
+> This function takes a number and decrements the number by 1, use the subtract function to create this function.
+
 * [ ] identity
+
+> `(value) => value`
+> This function returns the value that is passed in to it as an input.
+
 * [ ] always
+
+> `(value) => () => value`
+> This function returns a higher order function that when called will always return the value.
+
 * [ ] gt
+
 * [ ] lt
 * [ ] gte
 * [ ] lte
