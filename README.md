@@ -161,7 +161,7 @@ object to get a value, if no value is provided return null.
 * [ ] always
 
 > `(value) => () => value`
-> This function returns a higher order function that when called will always return the value.
+> This higher order function returns a function that when called will always return the value.
 
 * [ ] gt
 
